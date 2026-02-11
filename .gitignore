@@ -1,0 +1,106 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.out
+coverage.html
+
+# Go workspace file
+go.work
+
+# Dependency directories
+vendor/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+*.iws
+*.ipr
+
+# Local environment configuration
+.env
+.env.local
+.env.*.local
+
+# Build output
+bin/
+dist/
+build/
+*.o
+*.a
+
+# Runtime files
+api
+api.exe
+api-linux
+api-mac
+api.exe
+
+# PostgreSQL data (development only)
+postgres-data/
+pgdata/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# IDE workspace settings
+.code-workspace
+
+# Generated files
+*.proto.go
+
+# OS specific
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Logs
+*.log
+logs/
+
+# Node modules (if using any Node tools)
+node_modules/
+npm-debug.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.directory
+
+# Windows
+ehthumbs.db
+Desktop.ini
+
+# Git
+.git/
+.gitmodules
+
